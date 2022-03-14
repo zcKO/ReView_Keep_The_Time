@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ReView_Keep_The_Time</string>
+    <string name="txt_manage_my_friends">친구 목록 관리</string>
 </resources>
