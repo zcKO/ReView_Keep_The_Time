@@ -1,11 +1,22 @@
 package com.jc.review_keep_the_time
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
+import com.jc.review_keep_the_time.base.UtilityBase
+import com.jc.review_keep_the_time.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+class MainActivity : UtilityBase.BaseAppCompatActivity<ActivityMainBinding>(R.layout.activity_main) {
+
+    override fun ActivityMainBinding.onCreate() {
+
+
+
     }
+
+    override fun setupEvents() {
+
+    }
+
+    override fun setValues() {
+
+    }
+
 }
