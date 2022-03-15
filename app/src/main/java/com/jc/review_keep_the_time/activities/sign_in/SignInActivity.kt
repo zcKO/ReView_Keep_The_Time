@@ -7,9 +7,15 @@ import com.jc.review_keep_the_time.databinding.ActivitySignInBinding
 class SignInActivity : UtilityBase.BaseAppCompatActivity<ActivitySignInBinding>(R.layout.activity_sign_in) {
     override fun ActivitySignInBinding.onCreate() {
 
+        setupEvents()
+
     }
 
     override fun setupEvents() {
+
+        binding.loginButton.setOnClickListener {
+
+        }
 
     }
 
