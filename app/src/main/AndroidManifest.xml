@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ReView_Keep_The_Time">
         <activity
+            android:name=".activities.sign_in.SignInActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.splash.SplashActivity"
             android:exported="true"
             android:theme="@style/SplashNoActionBar">

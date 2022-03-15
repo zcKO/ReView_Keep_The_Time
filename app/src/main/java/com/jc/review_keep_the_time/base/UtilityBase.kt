@@ -1,11 +1,14 @@
 package com.jc.review_keep_the_time.base
 
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import androidx.annotation.LayoutRes
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
+import kotlin.jvm.internal.ClassBasedDeclarationContainer
+import kotlin.reflect.KClass
 
 sealed class UtilityBase {
 
@@ -29,6 +32,12 @@ sealed class UtilityBase {
 
         abstract fun setupEvents()
         abstract fun setValues()
+
+        // https://stackoverflow.com/questions/62144286/how-to-pass-a-class-to-a-function-in-kotlin
+        fun goToActivityWithFinish(cls: Class<*>?) {
+            startActivity(Intent(mContext, cls))
+            finish()
+        }
 
     }
 
