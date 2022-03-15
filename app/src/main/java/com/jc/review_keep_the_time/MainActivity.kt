@@ -7,8 +7,6 @@ class MainActivity : UtilityBase.BaseAppCompatActivity<ActivityMainBinding>(R.la
 
     override fun ActivityMainBinding.onCreate() {
 
-
-
     }
 
     override fun setupEvents() {

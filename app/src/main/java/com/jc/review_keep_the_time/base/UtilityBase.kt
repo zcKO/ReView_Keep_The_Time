@@ -23,8 +23,6 @@ sealed class UtilityBase {
             binding = DataBindingUtil.setContentView(this, layoutRes)
             mContext = this
             binding.onCreate()
-            setupEvents()
-            setValues()
         }
 
         abstract fun T.onCreate()
