@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">ReView_Keep_The_Time</string>
     <string name="txt_manage_my_friends">친구 목록 관리</string>
+    <string name="txt_keep_the_time">약속 시간 지키미</string>
+    <string name="txt_content">이 프로젝트는, 넵플러스 IT아카데미\n코틀린/안드로이드 양성반 최종 프로젝트입니다.</string>
+    <string name="txt_email">이메일</string>
+    <string name="hint_input_email">이메일 입력</string>
+    <string name="txt_password">비밀번호</string>
+    <string name="hint_input_password">비밀번호 입력</string>
+    <string name="txt_login">로그인</string>
+    <string name="txt_sign_in">회원가입</string>
 </resources>
