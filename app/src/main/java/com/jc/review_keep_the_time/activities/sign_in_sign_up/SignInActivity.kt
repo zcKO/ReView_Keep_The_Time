@@ -1,4 +1,4 @@
-package com.jc.review_keep_the_time.activities.sign_in
+package com.jc.review_keep_the_time.activities.sign_in_sign_up
 
 import android.widget.Toast
 import com.jc.review_keep_the_time.MainActivity
@@ -31,6 +31,12 @@ class SignInActivity :
             val pw = binding.inputPwEditText.text.toString()
 
             postRequestSignIn(email, pw)
+        }
+
+        binding.signUpButton.setOnClickListener {
+
+            goToActivityWithFinish(SignUpActivity::class.java, false)
+
         }
 
     }

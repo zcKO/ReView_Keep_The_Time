@@ -34,9 +34,12 @@ sealed class UtilityBase {
         abstract fun setValues()
 
         // https://stackoverflow.com/questions/62144286/how-to-pass-a-class-to-a-function-in-kotlin
-        fun goToActivityWithFinish(cls: Class<*>?) {
+        fun goToActivityWithFinish(cls: Class<*>?, isFinish: Boolean = true) {
             startActivity(Intent(mContext, cls))
-            finish()
+            if (isFinish) {
+                finish()
+            }
+
         }
 
     }
